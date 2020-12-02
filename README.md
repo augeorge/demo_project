@@ -1,4 +1,4 @@
-# test
+# demo project for python
 
 ![testing](https://github.com/augeorge/test/workflows/learn-github-actions/badge.svg)
 
