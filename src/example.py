@@ -3,4 +3,4 @@
 import foo_bar
 
 foo_bar.foo()
-food_bar.bar()
+foo_bar.bar()
