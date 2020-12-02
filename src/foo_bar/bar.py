@@ -1,5 +1,5 @@
 # bar.py
 
-def bar()
+def bar():
   ''' print bar '''
   print('bar')
