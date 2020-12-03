@@ -19,4 +19,4 @@ jobs:
           python setup.py develop
       - name: Run tests with pytest
         run: |
-          python py.test -v
+          demo_project pytest -v
