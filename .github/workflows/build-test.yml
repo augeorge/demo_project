@@ -16,6 +16,7 @@ jobs:
           pip install -r requirements.txt
           pip install pytest
           pip install pytest-cov
+          pip install black
           python setup.py develop 
       - name: Run tests with pytest
         run: pytest --cov=./ --cov-report=xml 
@@ -25,7 +26,17 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
           file: ./coverage.xml
           flags: unittests
-      - name: black
-        uses: lgeiger/black-action@v1.0.1
+      - name: autopep8
+        uses: peter-evans/autopep8@v1
         with:
-          args: .
+          args: --recursive --in-place --aggressive --aggressive .
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: autopep8 action fixes
+          title: Fixes by autopep8 action
+          body: This is an auto-generated PR with fixes by autopep8.
+          labels: autopep8, automated pr
+          reviewers: augeorge
+          branch: autopep8-patches
+
