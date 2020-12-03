@@ -25,3 +25,7 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
           file: ./coverage.xml
           flags: unittests
+      - name: black
+        uses: lgeiger/black-action@v1.0.1
+        with:
+          args: .
