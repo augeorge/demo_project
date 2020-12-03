@@ -1,6 +1,6 @@
 # demo project for python
 
-![learn-github-actions](https://github.com/augeorge/test/workflows/learn-github-actions/badge.svg)
+![build-test](https://github.com/augeorge/test/workflows/build-test/badge.svg)
 ![Documentation Status](https://readthedocs.org/projects/demo-project-docs/badge/?version=latest)
      
 testing project template
