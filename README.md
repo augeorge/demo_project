@@ -6,6 +6,8 @@
      
 testing project template
 
+[Docs](https://demo-project-docs.readthedocs.io/)
+
 development usage: >> python setup.py develop 
 
 testing usage: >> py.test -v 
