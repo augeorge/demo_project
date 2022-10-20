@@ -6,7 +6,7 @@
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/augeorge/demo_project.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/augeorge/demo_project/context:python)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/augeorge/demo_project.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/augeorge/demo_project/alerts/)
      
-project template (in progress)
+project template 
 
 [Docs](https://demo-project-docs.readthedocs.io/)
 
